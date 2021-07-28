@@ -1,5 +1,5 @@
 def makePlaylist(songs, artists):
-    if (len(songs) or len(artists) > 10**3):
+    if (len(songs) > 10**3 or len(artists) > 10**3):
         return "Không hợp lệ"
     playlist = {}
     for i in range(0,len(songs),1):
