@@ -7,7 +7,7 @@ def isSpecialNumber(num):
     for i in range(1, num+1, 1):
         if (num % i == 0):
             uoc.append(i)
-    for i in range(0,len(uoc),1):
+    for j in range(0,len(uoc),1):
         if (uoc[i] % 2 == 0):
             so_uoc_chan += 1
         else:
