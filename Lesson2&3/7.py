@@ -76,7 +76,7 @@ current_max_dir = ""
 for j in range(0,len(data),1):
     director.append(data[j]["director"])
 for x in director:
-    if director.count(x) > current_max:
+    if (director.count(x) > current_max):
         current_max = director.count(x)
         current_max_dir = x
 print(f"{x} xuất hiện nhiều nhất với {current_max} bộ phim")
